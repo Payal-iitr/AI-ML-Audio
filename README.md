@@ -48,34 +48,51 @@ MARS/
 pip install -r requirements.txt
 3. Download and prepare data
 
-Download the two RAVDESS zip files:
+**Download the two RAVDESS zip files:**
 Audio_Speech_Actors_01-24.zip
 Audio_Song_Actors_01-24.zip
 Extract into a single directory (e.g., data/Audio_Speech_Actors)
 
-Model Evaluation
+**Model Evaluation**
+
 Training-Validation Accuracy & Loss Plots
+
 F1-score: ~0.82
+
 Test Accuracy: ~85%
+
 Balanced Emotion Classification across classes
 
-Features
+**Features**
+
 Upload .wav file via drag-and-drop
+
 Real-time prediction of emotion
+
 Clean and interactive UI with Streamlit
+
 Playback of uploaded audio
 
-Libraries Used
+**Libraries Used**
+
 Python
+
 NumPy, Pandas, Matplotlib, Seaborn
+
 TensorFlow/Keras
+
 scikit-learn
+
 Librosa (for audio processing)
+
 Streamlit (for deployment)
 
-Key Functions
+**Key Functions**
+
 extract_mel_spec() – Extracts and pads Mel spectrogram features
+
 train_model() – Builds, trains, and saves CNN model
+
 predict_emotion() – Loads model & predicts emotion from new audio
 
 app.py – Streamlit frontend
