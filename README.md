@@ -62,17 +62,17 @@ Model Architecture: Convolutional Neural Network (CNN) trained on Mel spectrogra
 
 Evaluation Metrics:
 
-Test Accuracy: 56%
+Test Accuracy:63 %
 
-Macro F1-score: 0.56
+Macro F1-score: 0.62
 
-Weighted F1-score: 0.57
+Weighted F1-score: 0.63
 
 Performance by Emotion:
 
-Neutral: F1-score 0.71
+Neutral: F1-score 0.75
 
-Angry: F1-score 0.65
+Angry: F1-score 0.75
 
 Happy: F1-score 0.64
 
