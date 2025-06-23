@@ -55,13 +55,36 @@ Extract into a single directory (e.g., data/Audio_Speech_Actors)
 
 **Model Evaluation**
 
-Training-Validation Accuracy & Loss Plots
+Model Evaluation
+Train/Validation Split: 80/20
 
-F1-score: ~0.82
+Model Architecture: Convolutional Neural Network (CNN) trained on Mel spectrograms
 
-Test Accuracy: ~85%
+Evaluation Metrics:
 
-Balanced Emotion Classification across classes
+Test Accuracy: 56%
+
+Macro F1-score: 0.56
+
+Weighted F1-score: 0.57
+
+Performance by Emotion:
+
+Neutral: F1-score 0.71
+
+Angry: F1-score 0.65
+
+Happy: F1-score 0.64
+
+Disgust and Fearful show lower performance due to fewer examples and emotional overlap
+
+**Observations:**
+
+High precision in Neutral and Surprised, though recall varies
+
+Balanced macro and weighted averages show moderate generalization
+
+Useful foundation for improving class balance, data augmentation, or deeper CNNs
 
 **Features**
 
