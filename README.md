@@ -1,10 +1,10 @@
-# 🎵 Speech Emotion Recognition (SER) Using CNN
+#  Speech Emotion Recognition (SER) Using CNN
 
 This project builds a **Speech Emotion Recognition (SER)** system using **Mel spectrograms** and a **Convolutional Neural Network (CNN)** model. The goal is to classify human emotions like *happy*, *sad*, *angry*, etc., from `.wav` audio clips. The final model is deployed via a user-friendly **Streamlit web app**.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 - **Dataset**: [RAVDESS](https://zenodo.org/record/1188976) (Ryerson Audio-Visual Database of Emotional Speech and Song)
 - **Classes**: `['angry', 'calm', 'disgust', 'fearful', 'happy', 'neutral', 'sad', 'surprised']`
